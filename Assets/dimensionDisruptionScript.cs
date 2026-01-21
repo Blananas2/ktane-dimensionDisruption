@@ -366,11 +366,12 @@ public class dimensionDisruptionScript : MonoBehaviour
         {
             { "Filename", "DimensionDisruptionSettings.json" },
             { "Name", "Dimension Disruption Settings" },
-            { "Listing", new List<Dictionary<string, object>>{
+            { "Listings", new List<Dictionary<string, object>>{
                 new Dictionary<string, object>
                 {
                     { "Key", "TheColor" },
-                    { "Text", "Color of block structure, represented by a letter. Options are: ?KBGCRMYW" }
+                    { "Text", "Color" },
+                    { "Description", "Color of the block structure. Options are: ?, K, B, G, C, R, M, Y, W." }
                 }
             } }
         }
